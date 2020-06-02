@@ -257,7 +257,7 @@ export default class Send extends Component<Props, State> {
     }
 
     const subtractFee =
-      Number(totalAmount) * 100 - 10 - parseInt(session.daemon.feeAmount, 10);
+      Number(totalAmount) * 100 - 100 - parseInt(session.daemon.feeAmount, 100);
 
     const enteredAmount =
       subtractFee < 0
