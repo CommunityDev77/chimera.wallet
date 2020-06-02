@@ -8,7 +8,7 @@ import jdenticon from 'jdenticon';
 import {
   validateAddress,
   validatePaymentID
-} from 'chimerawalletbackend/dist/lib/ValidateParameters';
+} from 'chimerawallet/dist/lib/ValidateParameters';
 import NavBar from './NavBar';
 import BottomBar from './BottomBar';
 import Redirector from './Redirector';

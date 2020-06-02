@@ -7,7 +7,7 @@ import {
   Daemon,
   LogLevel,
   Config
-} from 'chimerawalletbackend';
+} from 'chimerawallet';
 import log from 'electron-log';
 import fs, { WriteStream } from 'fs';
 import { createObjectCsvWriter } from 'csv-writer';
