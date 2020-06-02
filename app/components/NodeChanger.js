@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import { remote } from 'electron';
 import log from 'electron-log';
-import { Daemon } from 'chimerawallet';
+import { Daemon } from 'chimera-wallet-backend';
 import {
   il8n,
   session,
