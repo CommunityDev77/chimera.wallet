@@ -218,12 +218,12 @@ export default class Send extends Component<Props, State> {
       return;
     }
 
-    const fee = displayCurrency === 'CMRA' ? 1 : 1 * fiatPrice;
+    const fee = displayCurrency === 'CMRA' ? 5 : 5 * fiatPrice;
 
     const totalAmount = (
       parseFloat(enteredAmount) +
       fee +
-      parseFloat(session.daemon.feeAmount / 100)
+      parseFloat(session.daemon.feeAmount / 500)
     ).toFixed(2);
     this.setState({
       enteredAmount,
@@ -257,7 +257,7 @@ export default class Send extends Component<Props, State> {
     }
 
     const subtractFee =
-      Number(totalAmount) * 100 - 100 - parseInt(session.daemon.feeAmount, 100);
+      Number(totalAmount) * 500 - 500 - parseInt(session.daemon.feeAmount, 500);
 
     const enteredAmount =
       subtractFee < 0
