@@ -218,7 +218,7 @@ export default class Send extends Component<Props, State> {
       return;
     }
 
-    const fee = displayCurrency === 'CMRA' ? 0.1 : 0.1 * fiatPrice;
+    const fee = displayCurrency === 'CMRA' ? 1 : 1 * fiatPrice;
 
     const totalAmount = (
       parseFloat(enteredAmount) +
