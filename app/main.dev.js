@@ -34,8 +34,8 @@ let config = null;
 const homedir = os.homedir();
 
 const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.chimerawallet`,
+  `${homedir}/.chimerawallet/logs`
 ];
 
 const [programDirectory] = directories;

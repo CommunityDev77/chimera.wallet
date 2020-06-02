@@ -28,8 +28,8 @@ import DaemonLogger from './wallet/DaemonLogger';
 const homedir = os.homedir();
 
 export const directories = [
-  `${homedir}/.protonwallet`,
-  `${homedir}/.protonwallet/logs`
+  `${homedir}/.chimerawallet`,
+  `${homedir}/.chimerawallet/logs`
 ];
 
 export const il8n = new LocalizedStrings({
