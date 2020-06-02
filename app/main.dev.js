@@ -172,7 +172,7 @@ contextMenu({
       visible: params.selectionText.trim().length === 64,
       click: () => {
         shell.openExternal(
-          `https://explorer.turtlecoin.lol/?search=${encodeURIComponent(
+          `http://explorer.chimeraproject.io/?search=${encodeURIComponent(
             params.selectionText
           )}`
         );

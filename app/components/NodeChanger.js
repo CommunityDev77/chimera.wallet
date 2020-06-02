@@ -113,7 +113,7 @@ export default class NodeChanger extends Component<Props, State> {
   };
 
   findNode = () => {
-    remote.shell.openExternal('https://explorer.turtlecoin.lol/nodes.html');
+    remote.shell.openExternal('http://explorer.chimeraproject.io/#network');
   };
 
   handleNodeInputChange = (event: any) => {
